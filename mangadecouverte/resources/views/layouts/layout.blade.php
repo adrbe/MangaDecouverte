@@ -23,18 +23,18 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Actualités</a>
+                        <a class="nav-link" href="https://myanimelist.net/topmanga.php?type=lightnovels">Actualités</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Light Novels</a>
+                        <a class="nav-link" href="https://myanimelist.net/topmanga.php?type=lightnovels">Light Novels</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Nagivation
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="mangas">Mangas</a></li>
-                          <li><a class="dropdown-item" href="dessinateurs">Dessinateurs</a></li>
+                          <li><a class="dropdown-item" href="{{url('/mangas')}}">Mangas</a></li>
+                          <li><a class="dropdown-item" href="{{url('/dessinateurs')}}">Dessinateurs</a></li>
                         </ul>
                       </li>
                     </ul>
