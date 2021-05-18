@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('manga',[MangaController::class, 'index']);
+Route::get('mangas',[MangaController::class, 'index']);
